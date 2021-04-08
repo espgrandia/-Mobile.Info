@@ -74,9 +74,7 @@
 - commandline
 
   ```sh
-
     defaults write com.google.android.studio AppleWindowTabbingMode manual
-
   ```
 
 - 注意事項 :
