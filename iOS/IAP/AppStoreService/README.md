@@ -91,5 +91,3 @@ App Store 的通知，有些內容的異動會透過此 Server 來發送通知�
 [=> Top](#app-store-service)
 
 [=> Go Back](../README.md)
-
-
