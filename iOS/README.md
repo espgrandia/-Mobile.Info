@@ -8,18 +8,25 @@
 
 - [iOS](#ios)
   - [大綱](#大綱)
-  - [上架](#上架)
-  - [功能](#功能)
+  - [項目](#項目)
 
-## 上架
+## 項目
 
-- [apple 審核](./Review/README.md)
-
-## 功能
+**金流 :**
 
 - [IAP](./IAP/README.md)
 
   > In-App Purchases 相關
+
+**App :**
+
+- [版本號碼](./BundleVersion/README.md)
+
+  > 與 App 的 Version 有關的說明。
+
+**上架 :**
+
+- [apple 審核](./Review/README.md)
 
 ---
 
