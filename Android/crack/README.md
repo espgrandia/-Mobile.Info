@@ -166,4 +166,6 @@
 
 ---
 
-### [回上一頁](../README.md)
+[=> Top](#android-crack)
+
+[=> Go Back](../README.md)
