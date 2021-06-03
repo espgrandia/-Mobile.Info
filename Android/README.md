@@ -9,7 +9,7 @@
 - [Android](#android)
   - [大綱](#大綱)
   - [apk](#apk)
-  - [IDE](#ide)
+  - [項目](#項目)
 
 ---
 
@@ -21,7 +21,9 @@
 
 ---
 
-## IDE
+## 項目
+
+**IDE :**
 
 - [Android Studio Freezing Problem in FullScreen @ MacOS BigSur](./AndroidStudioFreezingInFullScreenAtMacOSBigSur/README.md)
 
@@ -30,6 +32,12 @@
   > 在一些操作時，如開啟等，很容易遇到程式卡住或不順怪怪的情況。
   >
   > 說明問題以及排除方式。
+
+**Android 市占率 :**
+
+- [Market share](./MarketShare/README.md)
+
+  > 主要說明 Android Platform versions 的市佔率 (涵蓋率) 如何查閱。
 
 ---
 
