@@ -30,7 +30,7 @@
 
 - [apple 審核](./Review/README.md)
 
-- [Xcode Archive Upload To App Store Connect](https://github.com/espgrandia/Xcode.Journey/blob/master/Xcode_Archive_Upload_To_AppStoreConnect_Using_FlutterProject/README.md)
+- [Xcode Archive Upload To App Store Connect](../../Xcode.Journey/Xcode_Archive_Upload_To_AppStoreConnect_Using_FlutterProject/README.md)
 
   > 文章收納在 Xcode.Journey 的專案中，
   >
