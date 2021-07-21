@@ -284,11 +284,15 @@
 
 - [CFBundleVersion | Apple Developer Documentation]
 
+- [iOS App 版本的定义 - 简书]
+
 <!-- 連結設定 -->
 
 [CFBundleShortVersionString | Apple Developer Documentation]: https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleshortversionstring
 
 [CFBundleVersion | Apple Developer Documentation]: https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleversion/
+
+[iOS App 版本的定义 - 简书]: https://www.jianshu.com/p/0893c570fce0
 
 ---
 

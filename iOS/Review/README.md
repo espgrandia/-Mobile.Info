@@ -16,13 +16,33 @@
 
 ## 參考
 
-- [App Store 审核指南 - Apple Developer](https://developer.apple.com/cn/app-store/review/guidelines/)
+- [App Store 审核指南 - Apple Developer]
 
-- [蘋果審核app一般需要多長時間-熱備資訊](https://zh-hant.hotbak.net/key/ios%E4%B8%8A%E6%9E%B6%E5%AF%A9%E6%A0%B8%E4%B8%80%E8%88%AC%E8%A6%81%E5%B9%BE%E5%A4%A9.html)
+- [蘋果審核app一般需要多長時間-熱備資訊]
 
-- [iOS 蘋果上架 Guideline 4.3 被拒處理. 被4.3條款退回處理的資訊分享 | by Finn | Medium](https://medium.com/@f40507777/ios-%E8%98%8B%E6%9E%9C%E4%B8%8A%E6%9E%B6-guideline-4-3-%E8%A2%AB%E6%8B%92%E8%99%95%E7%90%86-4feb74f6b912)
+- [iOS 蘋果上架 Guideline 4.3 被拒處理. 被4.3條款退回處理的資訊分享 | by Finn | Medium]
+
+- [Contact the App Review Team - Apple Developer]
+
+  > Apple 官方提供的快速審查網址。
+
+- [iOS 加速送審App (Expedite App Review)]
+
+  > 說明如何遞交快速審查。
 
 ---
+
+<!-- 連結設定 -->
+
+[App Store 审核指南 - Apple Developer]: https://developer.apple.com/cn/app-store/review/guidelines/
+
+[蘋果審核app一般需要多長時間-熱備資訊]: https://zh-hant.hotbak.net/key/ios%E4%B8%8A%E6%9E%B6%E5%AF%A9%E6%A0%B8%E4%B8%80%E8%88%AC%E8%A6%81%E5%B9%BE%E5%A4%A9.html
+
+[iOS 蘋果上架 Guideline 4.3 被拒處理. 被4.3條款退回處理的資訊分享 | by Finn | Medium]: https://medium.com/@f40507777/ios-%E8%98%8B%E6%9E%9C%E4%B8%8A%E6%9E%B6-guideline-4-3-%E8%A2%AB%E6%8B%92%E8%99%95%E7%90%86-4feb74f6b912
+
+[iOS 加速送審App (Expedite App Review)]: https://cg2010studio.com/2020/05/25/ios-%E5%8A%A0%E9%80%9F%E9%80%81%E5%AF%A9app-expedite-app-review/
+
+[Contact the App Review Team - Apple Developer]: https://developer.apple.com/contact/app-store/?topic=expedite
 
 [=> Top](#apple-審核)
 
