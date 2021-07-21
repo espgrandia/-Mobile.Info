@@ -44,6 +44,12 @@
 
 - [送審自動化](./ReviewAutomation/README.md)
 
+**App Store Connect :**
+
+- [App Store Connect](./AppStoreConnect/README.md)
+
+  > 以 App Store Connect 可以使用的功能為主要說明。
+
 ---
 
 [=> Top](#ios)
