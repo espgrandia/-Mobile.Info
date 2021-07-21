@@ -42,6 +42,8 @@
   >
   > 中間有修正一些客製化的腳本來加速產出。
 
+- [送審自動化](./ReviewAutomation/README.md)
+
 ---
 
 [=> Top](#ios)
