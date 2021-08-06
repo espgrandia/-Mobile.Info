@@ -109,10 +109,6 @@
 
 - [APP TestFlight缺少出口合規資訊. (APP, 出口合規資訊, Export compliance… | by Peggy Tsai  | 彼得潘的 Swift iOS App 開發教室 | Medium]
 
-- [APP TestFlight 自動提供 缺少出口合規資訊 - 彼得潘的 Swift iOS App 開發教室 - Medium]
-
-- [蘋果提交版本後顯示”缺少出口合規證明“的解決辦法 - IT閱讀]
-
 - [自動提供 缺少出口合規資訊]
 
   > iOS 專案 info.plist 設定方式，可以說明不需要 `出口合規` 文件。
@@ -124,10 +120,6 @@
 [出口合規資訊概覽 - App Store Connect 輔助說明]: https://help.apple.com/app-store-connect/#/dev88f5c7bf9
 
 [APP TestFlight缺少出口合規資訊. (APP, 出口合規資訊, Export compliance… | by Peggy Tsai  | 彼得潘的 Swift iOS App 開發教室 | Medium]: https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/app-%E7%BC%BA%E5%B0%91%E5%87%BA%E5%8F%A3%E5%90%88%E8%A6%8F%E8%B3%87%E8%A8%8A-64e3e7f2b55f
-
-[APP TestFlight 自動提供 缺少出口合規資訊 - 彼得潘的 Swift iOS App 開發教室 - Medium]: https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E6%95%99%E5%AE%A4/app-testflight-%E4%B8%AD%E8%87%AA%E5%8B%95%E6%8F%90%E4%BE%9B-%E7%BC%BA%E5%B0%91%E5%87%BA%E5%8F%A3%E5%90%88%E8%A6%8F%E8%B3%87%E8%A8%8A-5c549fd73de4
-
-[蘋果提交版本後顯示”缺少出口合規證明“的解決辦法 - IT閱讀]: https://www.itread01.com/content/1550360004.html
 
 [自動提供 缺少出口合規資訊]: https://github.com/espgrandia/Xcode.Journey/blob/master/Provided_Automatically_Export_Compliance/
 
