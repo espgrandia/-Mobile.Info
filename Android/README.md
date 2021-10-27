@@ -43,6 +43,12 @@
 
   > 主要說明 Android Platform versions 的市佔率 (涵蓋率) 如何查閱。
 
+**發佈 :**
+
+- [Work Before Publish Google Play](./workBeforePublishGooglePlay/README.md)
+
+  > 發佈至Google Play 商店之前置作業
+
 ---
 
 [=> Top](#android)
