@@ -25,6 +25,10 @@
   >
   > 以手動處理為主，自動化處理在別的地方說明，有附上連結。
 
+- [Sign In With Apple Reject For 2.1](./SignInWithApple_Reject_For_2.1/README.md)
+
+  > Sing In With Apple 關於 `2.` 1 Performance: App Completeness Reject 說明。
+
 ---
 
 ## 參考
