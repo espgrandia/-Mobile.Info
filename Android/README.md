@@ -33,15 +33,17 @@
   >
   > 說明問題以及排除方式。
 
-**出版 :**
-
-- [appbundle](./appbundle/README.md)
-
 **Android 市占率 :**
 
 - [Market share](./MarketShare/README.md)
 
   > 主要說明 Android Platform versions 的市佔率 (涵蓋率) 如何查閱。
+
+**出版 :**
+
+- [App Bundle](./appbundle/README.md)
+
+  2018 年，推出的發布格式。
 
 **發佈 :**
 
