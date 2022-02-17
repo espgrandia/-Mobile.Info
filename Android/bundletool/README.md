@@ -10,8 +10,8 @@
   - [說明](#說明)
     - [概述](#概述)
     - [下載 bundletool](#下載-bundletool)
-      - [bundletool 格式](#bundletool-格式)
-      - [命名別名配置](#命名別名配置)
+    - [bundletool 格式](#bundletool-格式)
+    - [命名別名配置](#命名別名配置)
   - [參考](#參考)
 
 ---
@@ -37,7 +37,9 @@ bundletool 是一種底層工具，
 
 可自 [GitHub bundletool Release][Releases · google/bundletool · GitHub] 下載。
 
-#### bundletool 格式
+---
+
+### bundletool 格式
 
 由於 bundletool 工具為一個 .jar 格式文件。
 
@@ -45,7 +47,9 @@ bundletool 是一種底層工具，
 
 可使用 java -jar bundletool-xxx.jar 來使用。
 
-#### 命名別名配置
+---
+
+### 命名別名配置
 
 另外，可使用腳本並配置環境變量，方便全局使用。
 
