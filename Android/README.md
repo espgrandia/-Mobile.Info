@@ -45,6 +45,14 @@
 
   2018 年，推出的發布格式。
 
+**命令行工作 :**
+
+Command line Tools。
+
+- [bundletool](./bundletool/README.md)
+
+  > 底層工具，可將 aab 轉換為部署設備的各種 apk。
+
 **發佈 :**
 
 - [Work Before Publish Google Play](./workBeforePublishGooglePlay/README.md)
