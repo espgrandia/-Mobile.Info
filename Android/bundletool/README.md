@@ -15,6 +15,7 @@
   - [參數介紹](#參數介紹)
     - [aab to apks](#aab-to-apks)
     - [apks analysis](#apks-analysis)
+  - [延伸閱讀](#延伸閱讀)
   - [參考](#參考)
 
 ---
@@ -161,6 +162,19 @@ bundletool 是一種底層工具，
   - 官方介紹 :
 
     ![parameter_get_size_total](pics/parameter_get_size_total.png)
+
+---
+---
+
+## 延伸閱讀
+
+- [bundletool install-apks 命令 issue](./bundletoold_install_apks_issue/README.md)
+
+  > 主要說明使用此 `bundletool install-apks` 遇到的問題，以及如何排除錯誤。
+
+- [Mode-Universal 分析](./Mode_Universal_Analysis/README.md)
+
+  > bundletool build-apks 的參數中， 測試 `--mode=universal` 此參數的效果以及分析與預設 (沒設定此參數) 的差異。
 
 ---
 ---
