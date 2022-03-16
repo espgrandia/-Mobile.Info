@@ -14,6 +14,7 @@
     - [命名別名配置](#命名別名配置)
   - [參數介紹](#參數介紹)
     - [aab to apks](#aab-to-apks)
+    - [install to apk](#install-to-apk)
     - [apks analysis](#apks-analysis)
   - [延伸閱讀](#延伸閱讀)
   - [參考](#參考)
@@ -32,6 +33,10 @@ bundletool 是一種底層工具，
 您也可以將 bundletool 作為一種命令行工具，
 
 用於自行構建 app bundle 和重新創建應用 APK 的 Google Play 服務器端 build。
+
+> 以下的說明，為實測時的一些環境安裝說明，還有略微整理及介紹一些參數用法，
+>
+> 細節可看下面的 [參考](#參考)。
 
 ---
 ---
@@ -113,7 +118,17 @@ bundletool 是一種底層工具，
 
 ### aab to apks
 
-- aab to apks 官方範例
+- bundletool `build-apks`
+
+  基本的 `build-apks` 使用方式。
+
+  > 下面會在介紹額外的 param，會有不同的效果。
+
+  - 官方介紹 :
+
+    ![aab_to_apks_official_sample](./pics/aab_to_apks_official_sample.png)
+
+  - 官方範例 :
 
   ```sh
 
@@ -125,8 +140,6 @@ bundletool 是一種底層工具，
 
   ```
 
-  ![aab_to_apks_official_sample](./pics/aab_to_apks_official_sample.png)
-
   這邊有個插曲，若直接輸入密碼的話，則參數要改帶入 `pass:xxx` 。
 
   - 錯誤的範本
@@ -137,17 +150,104 @@ bundletool 是一種底層工具，
 
     ![aab_to_apks_official_test_success_after_assign_pass](./pics/aab_to_apks_official_test_success_after_assign_pass.png)
 
-- mode=universal
+- bundletool `build-apks` --mode=universal
 
   可編譯出所有資源的 apk，亦即產出的 apks，解開後只有單一一個 apk 版本。
-
-  ```sh
-    --mode=universal
-  ```
 
   - 官方介紹 :
 
     ![parameter_mode_equal_universal](pics/parameter_mode_equal_universal.png)
+
+  - 官方範例 :
+
+    ```sh
+      --mode=universal
+    ```
+
+- 生成設備專用 APK 集
+
+  有幾種方式，可以產生特定裝置的 apks。
+
+  簡單介紹如下，細節可看官網。
+
+  - 官方介紹 :
+
+    ![generator_assign_device_apks](pics/generator_assign_device_apks.png)
+
+  - bundletool `build-apks` --connected-device
+
+    若只想針對連結的裝置來產生 apks，可透過 --connected-device 選項，來生成對應的 APK。
+
+    - 官方範例 :
+
+      ```sh
+      bundletool build-apks --connected-device
+      --bundle=/MyApp/my_app.aab --output=/MyApp/my_app.apks
+      ```
+
+  - 使用 設備規範 JSON 文件 :
+
+    概念是先產生設備對應的 Json Spec 描述檔。
+
+    然後再使用其他的參數命令，可輸入 Json Spec ，產出對應的 apks。
+
+    - 產生設備描述檔
+
+      可使用 bundletool 產生設備對應的 Josn Spec File。
+
+      - 官方範例 :
+
+        ```sh
+        bundletool get-device-spec --output=/tmp/device-spec.json
+        ```
+
+    - bundletool `build-apks` --device-spec
+
+      透過 aab ，以及設定的 device json spec file，產出對應裝置的 apks。
+
+      - 官方範例 :
+
+      ```sh
+      bundletool build-apks --device-spec=/MyApp/pixel2.json
+      --bundle=/MyApp/my_app.aab --output=/MyApp/my_app.apks
+      ``
+
+    - bundletool `extract-apks`
+
+      可使用之前已經產出的 apks，以及設定的 device json spec file，
+
+      可提取出對應設備的 apks。
+
+    - 官方範例 :
+
+      ```sh
+      bundletool extract-apks
+      --apks=/MyApp/my_existing_APK_set.apks
+      --output-dir=/MyApp/my_pixel2_APK_set.apks
+      --device-spec=/MyApp/bundletool/pixel2.json
+      ```
+
+---
+
+### install to apk
+
+透過 aab 產出來的 apks，如何安裝到裝置上呢?
+
+可透過下列的方式安裝到裝置，來進行實際測試。
+
+- 將 APK 部署到連結的設備
+
+  透過上面的轉換後的 apks，再進行安裝到裝置。
+
+  - 官方範例
+
+    ```sh
+    bundletool install-apks --apks=/MyApp/my_app.apks
+    ```
+
+  - 官方介紹
+
+    ![parameter_install_apks](pics/parameter_install_apks.png)
 
 ---
 
