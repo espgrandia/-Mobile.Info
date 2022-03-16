@@ -130,15 +130,15 @@ bundletool 是一種底層工具，
 
   - 官方範例 :
 
-  ```sh
+    ```sh
 
-    bundletool build-apks --bundle=/MyApp/my_app.aab --output=/MyApp/my_app.apks
-    --ks=/MyApp/keystore.jks
-    --ks-pass=file:/MyApp/keystore.pwd
-    --ks-key-alias=MyKeyAlias
-    --key-pass=file:/MyApp/key.pwd
+      bundletool build-apks --bundle=/MyApp/my_app.aab --output=/MyApp/my_app.apks
+      --ks=/MyApp/keystore.jks
+      --ks-pass=file:/MyApp/keystore.pwd
+      --ks-key-alias=MyKeyAlias
+      --key-pass=file:/MyApp/key.pwd
 
-  ```
+    ```
 
   這邊有個插曲，若直接輸入密碼的話，則參數要改帶入 `pass:xxx` 。
 
@@ -207,10 +207,10 @@ bundletool 是一種底層工具，
 
       - 官方範例 :
 
-      ```sh
-      bundletool build-apks --device-spec=/MyApp/pixel2.json
-      --bundle=/MyApp/my_app.aab --output=/MyApp/my_app.apks
-      ``
+        ```sh
+        bundletool build-apks --device-spec=/MyApp/pixel2.json
+        --bundle=/MyApp/my_app.aab --output=/MyApp/my_app.apks
+        ```
 
     - bundletool `extract-apks`
 
